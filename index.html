@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Clarifion</title>
+      <link rel="stylesheet" href="./assets/css/fonts.css">
+      <link rel="stylesheet" href="./assets/css/swiper.min.css">
+      <link rel="stylesheet" href="./assets/css/style.css">
+   </head>
+   <body>
+      <div class="header-top">
+         <div class="swiper mySwiper container">
+            <div class="swiper-wrapper align-center">
+               <div class="swiper-slide title-wrap d-flex align-center">
+                  <figure class="d-flex align-center"> 
+                     <img src="./assets/media/guarantee-icon.svg" alt="Icon">
+                  </figure>
+                  <span class="header-title">30-DAY SATISFACTION GUARANTEE</span>
+               </div>
+               <div class="swiper-slide title-wrap d-flex align-center">
+                  <figure class="d-flex align-center"> 
+                     <img src="./assets/media/truck-icon.svg" alt="Icon">
+                  </figure>
+                  <span class="header-title">Free delivery on orders over $40.00</span>
+               </div>
+               <div class="swiper-slide title-wrap d-flex align-center">
+                  <figure class="d-flex align-center"> 
+                     <img src="./assets/media/heart-icon.svg" alt="Icon">
+                  </figure>
+                  <span class="header-title">50.000+ HAPPY CUSTOMERS</span>
+               </div>
+               <div class="swiper-slide title-wrap d-flex align-center">
+                  <figure class="d-flex align-center"> 
+                     <img src="./assets/media/check-icon.svg" alt="Icon">
+                  </figure>
+                  <span class="header-title">100% Money Back Guarantee</span>
+               </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+         </div>
+      </div>
+      <header class="header d-flex justify-between container">
+         <a href="#" class="logo-wrap">
+            <figure><img src="./assets/media/logo.svg" alt="Logo Image" class="logo-img"></figure>
+         </a>
+         <figure><img src="./assets/media/header-right-logo.svg" alt="Logo Image" class="header-right-logo"></figure>
+      </header>
+      <main>
+         <section class="container">
+            <h1 class="title text-center">Wait! Your order is in progress.</h1>
+            <p class="subtitle text-center">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+            <div class="wizard">
+               <div class="tab completed" id="tab1" onclick="activateTab(1)">
+                  <svg class="icon-hidden" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <circle cx="20" cy="20" r="20" fill="#4caf50"/>
+                     <path d="M9.99977 20L16.6586 27L29.9998 13" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span class="count d-flex justify-center align-center icon-show">1</span>
+                  <p class="wizard-state-text"><span class="d-none">step 1 : </span> Cart Review</p>
+               </div>
+               <div class="tab" id="tab2" onclick="activateTab(2)">
+                  <svg class="icon-hidden" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <circle cx="20" cy="20" r="20" fill="#4caf50"/>
+                     <path d="M9.99977 20L16.6586 27L29.9998 13" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span class="count d-flex justify-center align-center icon-show">2</span>
+                  <p class="wizard-state-text"><span class="d-none">step 2 : </span> Checkout</p>
+               </div>
+               <div class="tab" id="tab3" onclick="activateTab(3)">
+                  <svg class="icon-hidden" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <circle cx="20" cy="20" r="20" fill="#4caf50"/>
+                     <path d="M9.99977 20L16.6586 27L29.9998 13" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span class="count d-flex justify-center align-center icon-show">3</span>
+                  <p class="wizard-state-text"><span class="d-none">step 3 : </span> Special Offer</p>
+               </div>
+               <div class="tab" id="tab4" onclick="activateTab(4)">
+                  <svg class="icon-hidden" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <circle cx="20" cy="20" r="20" fill="#4caf50"/>
+                     <path d="M9.99977 20L16.6586 27L29.9998 13" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                  <span class="count d-flex justify-center align-center icon-show">4</span>
+                  <p class="wizard-state-text"><span class="d-none">step 4 : </span> Confirmation</p>
+               </div>
+            </div>
+            <div id="content1" class="tab-content active">
+               <p>Content for step 1</p>
+            </div>
+            <div id="content2" class="tab-content">
+               <p>Content for step 2</p>
+            </div>
+            <div id="content3" class="tab-content">
+               <div class="row content-row">
+                  <div class="col-left">
+                     <figure>
+                        <img src="./assets/media/banner-image.png" alt="Clarifion banner image" class="banner-image">
+                     </figure>
+                     <div class="testimonial">
+                        <div class="profile-wrap d-flex align-center mb-3">
+                           <img src="./assets/media/user-avatar.png" alt="User Image" class="user-avatar">
+                           <div>
+                              <ul class="star-ul d-flex">
+                                 <li><img src="./assets/media/star-icon.svg" alt="Star Icon"></li>
+                                 <li><img src="./assets/media/star-icon.svg" alt="Star Icon"></li>
+                                 <li><img src="./assets/media/star-icon.svg" alt="Star Icon"></li>
+                                 <li><img src="./assets/media/star-icon.svg" alt="Star Icon"></li>
+                                 <li><img src="./assets/media/star-icon.svg" alt="Star Icon"></li>
+                              </ul>
+                              <div class="profile-info d-flex align-center">
+                                 <h4 class="user-name">Ken T.</h4>
+                                 <img src="./assets/media/verify-icon.svg" alt="Verifiy Icon" class="verify-icon-img">
+                                 <p class="verify-status">Verified Customer</p>
+                              </div>
+                           </div>
+                        </div>
+                        <p class="testimonial-text">
+                           “As soon as the Clarifions arrived I put one in my bedroom. This was late in the afternoon. When I went to the bedroom in the evening it smelled clean. When I went to bed I felt I could breathe better. Wonderful.”
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-right">
+                     <h2 class="content-heading"><a href="#" class="text-blue">ONE TIME ONLY</a> special price for 6 extra Clarifion for only <a href="#" class="text-blue">$14 each</a> ($84.00 total!)</h2>
+                     <a href="#" class="description-wrap d-flex">
+                        <figure>
+                           <img src="./assets/media/clarifion-small-image.png" alt="Clarifion small image" class="desc-img">
+                        </figure>
+                        <div class="info-wrap">
+                           <div class="d-flex align-center justify-between mb-2">
+                              <p class="info-title">Clarifion Air Ionizer</p>
+                              <p class="price text-blue d-flex align-center"><del>$180</del> $84</p>
+                           </div>
+                           <ul class="star-ul mb-2 d-flex">
+                              <li><img src="./assets/media/star-icon-yellow.svg" alt="Star Icon" class="star-icon"></li>
+                              <li><img src="./assets/media/star-icon-yellow.svg" alt="Star Icon" class="star-icon"></li>
+                              <li><img src="./assets/media/star-icon-yellow.svg" alt="Star Icon" class="star-icon"></li>
+                              <li><img src="./assets/media/star-icon-yellow.svg" alt="Star Icon" class="star-icon"></li>
+                              <li><img src="./assets/media/star-icon-yellow.svg" alt="Star Icon" class="star-icon"></li>
+                           </ul>
+                           <div class="stock-quantity d-flex align-center mb-2">
+                              <span class="blue-circle"></span>
+                              <p class="stock-status">12 left in Stock</p>
+                           </div>
+                           <p class="into-text">Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple.</p>
+                        </div>
+                     </a>
+                     <p class="info-text-mobile text-center mb-3">Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple.</p>
+                     <div class="instructions">
+                        <ul>
+                           <li class="d-flex align-center mb-2">
+                              <img src="./assets/media/tick-icon.svg" alt="Blue tick icon" class="tick-icon">
+                              <p class="instruction-text">Negative Ion Technology may <strong>help with allergens</strong></p>
+                           </li>
+                           <li class="d-flex align-center mb-2">
+                              <img src="./assets/media/tick-icon.svg" alt="Blue tick icon" class="tick-icon">
+                              <p class="instruction-text">Designed for <strong>air rejuvenation</strong></p>
+                           </li>
+                           <li class="d-flex align-center mb-2">
+                              <img src="./assets/media/tick-icon.svg" alt="Blue tick icon" class="tick-icon">
+                              <p class="instruction-text"><strong>Perfect for every room</strong> in all types of places.</p>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="savings-info d-flex align-center">
+                        <div><span class="module-icon d-flex justify-center align-center">%</span></div>
+                        <p>Save <a href="#" class="text-blue">53%</a> and get <a href="#" class="text-blue">6 extra Clarifision</a> for only <a href="#" class="text-blue">$14 Each.</a></p>
+                     </div>
+                     <a href="#" class="button-success justify-center d-flex align-center mb-2" role="button">
+                     <span>Yes - Claim my discount</span>
+                     <img src="./assets/media/arrow-right.svg" alt="">
+                     </a>
+                     <div class="payment-info-wrap d-flex justify-between align-center mb-3">
+                        <div class="d-flex paymnet-content-wrap">
+                           <p class="text">Free shipping</p>
+                           <span class="vertical-divider"></span>
+                           <div class="d-flex secure-pay">
+                              <img src="./assets/media/lock-icon.svg" alt="Lock Icon">
+                              <p class="text">Secure 256-bit SSL encryption.</p>
+                           </div>
+                           <span class="vertical-divider desktop-divider"></span>
+                        </div>
+                        <ul class="payment-methods d-flex">
+                           <li>
+                              <a href="#" class="d-flex"><img src="./assets/media/visa.svg" alt="Visa payment method image" class="payment-method-image"></a>
+                           </li>
+                           <li>
+                              <a href="#" class="d-flex"><img src="./assets/media/shop pay.svg" alt="Visa payment method image" class="payment-method-image"></a>
+                           </li>
+                           <li>
+                              <a href="#" class="d-flex"><img src="./assets/media/paypal.svg" alt="Visa payment method image" class="payment-method-image"></a>
+                           </li>
+                           <li>
+                              <a href="#" class="d-flex"><img src="./assets/media/mastercard.svg" alt="Visa payment method image" class="payment-method-image"></a>
+                           </li>
+                           <li>
+                              <a href="#" class="d-flex"><img src="./assets/media/gpay.svg" alt="Visa payment method image" class="payment-method-image"></a>
+                           </li>
+                           <li>
+                              <a href="#" class="d-flex"><img src="./assets/media/apple pay.svg" alt="Visa payment method image" class="payment-method-image"></a>
+                           </li>
+                           <li>
+                              <a href="#" class="d-flex"><img src="./assets/media/amex.svg" alt="Visa payment method image" class="payment-method-image"></a>
+                           </li>
+                        </ul>
+                     </div>
+                     <h3 class="alert text-center mb-3">No thanks, I don&apos;t want this.</h3>
+                     <div class="guarantee-batch d-flex">
+                        <img src="./assets/media/guarantee-batch.png" alt="guarantee batch image" class="batch-img">
+                        <article class="text">If you are not completely thrilled with your Clarifion - We have a <strong>30 day satisfaction guarantee.</strong> Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</article>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="content4" class="tab-content">
+              <h3 class="mb-3">Content for step 4</h3>
+              <p class="mb-3">lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua obcaecati ipsa assumenda doloremque ipsam eos cupiditate libero fuga provident nemo architecto deserunt magnam praesentium natus impedit tenetur dolor pariatur suscipit ab sunt aspernatur vel ipsum necessitatibus voluptatum mollitia odio eligendi</p>
+              <p class="mb-3">lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua obcaecati ipsa assumenda doloremque ipsam eos cupiditate libero fuga provident nemo architecto deserunt magnam praesentium natus impedit tenetur dolor pariatur suscipit ab sunt aspernatur vel ipsum necessitatibus voluptatum mollitia odio eligendi</p>
+              <p class="mb-3">lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua obcaecati ipsa assumenda doloremque ipsam eos cupiditate libero fuga provident nemo architecto deserunt magnam praesentium natus impedit tenetur dolor pariatur suscipit ab sunt aspernatur vel ipsum necessitatibus voluptatum mollitia odio eligendi</p>
+              <p class="mb-3">lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua obcaecati ipsa assumenda doloremque ipsam eos cupiditate libero fuga provident nemo architecto deserunt magnam praesentium natus impedit tenetur dolor pariatur suscipit ab sunt aspernatur vel ipsum necessitatibus voluptatum mollitia odio eligendi</p>
+              <p class="mb-3">lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua obcaecati ipsa assumenda doloremque ipsam eos cupiditate libero fuga provident nemo architecto deserunt magnam praesentium natus impedit tenetur dolor pariatur suscipit ab sunt aspernatur vel ipsum necessitatibus voluptatum mollitia odio eligendi</p>
+              <p class="mb-3">lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua obcaecati ipsa assumenda doloremque ipsam eos cupiditate libero fuga provident nemo architecto deserunt magnam praesentium natus impedit tenetur dolor pariatur suscipit ab sunt aspernatur vel ipsum necessitatibus voluptatum mollitia odio eligendi</p>
+              <p class="mb-3">lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua obcaecati ipsa assumenda doloremque ipsam eos cupiditate libero fuga provident nemo architecto deserunt magnam praesentium natus impedit tenetur dolor pariatur suscipit ab sunt aspernatur vel ipsum necessitatibus voluptatum mollitia odio eligendi</p>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="container footer-info-wrap d-flex justify-between align-center mb-3">
+            <div class="d-flex align-center footer-content-wrap">
+               <p class="text">Free shipping</p>
+               <span class="vertical-divider"></span>
+               <p class="text">Secure 256-bit SSL encryption.</p>
+            </div>
+            <div class="d-flex footer-secure-pay">
+               <img src="./assets/media/white-lock.svg" alt="Lock Icon">
+               <p class="text">Secure 256-bit SSL encryption.</p>
+            </div>
+         </div>
+      </footer>
+      <script src="./assets/js/swiper.min.js"></script>
+      <script src="./assets/js/jquery.min.js"></script>
+      <script src="./assets/js/script.js"></script>
+   </body>
+</html>

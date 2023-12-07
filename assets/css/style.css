@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-primary: #252F3D;
+    --color-secondary: #4D5254;
+    --color-green: #59AE43;
+    --color-blue: #2C7EF8;
+    --color-light-blue: #dbe8fe;
+    --color-red: #F82C2C;
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-light: #FAFAFA;
+    --color-dark: #333333;
+    --color-gray: #969696;
+    --color-light-green: #5BB59A;
+}
+body{
+    font-family: 'Manrope';
+    width: 100%;
+    color: var(--color-black);
+}
+html{
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+span{
+    display: inline-block;
+}
+.text-center{
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center{
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+.mb-2{
+    margin-bottom: 10px;
+}
+.mb-3{
+    margin-bottom: 20px;
+}
+.row{
+    display: flex;
+    gap: 40px;
+}
+.text-blue{
+    color: var(--color-blue);
+}
+.container{
+    width: 100%;
+    max-width: 1245px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-top{
+    background-color: var(--color-primary);
+    padding: 10px;
+}
+.header-title{
+    font-size: 12px;
+    color: var(--color-white);
+    text-transform: uppercase;
+}
+.title-wrap, .instructions li, .profile-info{
+    gap: 10px;
+}
+.header{
+    padding: 28px 15px;
+}
+.logo-wrap .logo-img{
+    width: 192px;
+}
+.header-right-logo{
+    width: 202px;
+}
+.title{
+    font-size: 48px;
+    font-weight: 400;
+}
+.subtitle{
+    font-size: 24px;
+    color: var(--color-secondary);
+    margin-bottom: 60px;
+}
+.wizard {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding: 10px 0;
+}
+.tab {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tab.active .count{
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+.count{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: var(--color-blue);
+    border-radius: 50%;
+    border: 2px solid var(--color-blue);
+}
+.tab.completed .count {
+    background-color: var(--color-green);
+    color: var(--color-white);
+}
+.icon-hidden, .info-text-mobile{
+    display: none;
+}
+.tab-content{
+    display: none;
+    border-radius: 5px;
+}
+.tab-content.active{
+    display: block;
+}
+.tab.active .wizard-state-text{
+    color: var(--color-black);
+    font-weight: 700;
+}
+.wizard-state-text{
+    font-size: 20px;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    color: var(--color-white);
+    font-size: 16px;
+}
+.tab-content{
+    padding: 40px;
+    background-color: var(--color-light);
+    border-radius: 10px;
+}
+.col-left{
+    width: 100%;
+    max-width: 575px;
+}
+.banner-image{
+    width: 575px;
+}
+.content-heading{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.description-wrap{
+    gap: 24px;
+    margin-bottom: 30px;
+}
+.desc-img{
+    width: 134px;
+}
+.info-wrap{
+    width: 100%;
+}
+.price{
+    font-size: 22px;
+    font-weight: 500;
+    gap: 5px;
+}
+.price del{
+    color: var(--color-gray);
+    font-size: 16px;
+}
+.info-title{
+    font-size: 20px;
+    color: var(--color-black);
+}
+.star-icon{
+    width: 18px;
+    height: 18px;
+}
+.stock-status{
+    color: var(--color-dark);
+    font-weight: 300;
+}
+.stock-quantity, .guarantee-batch, .profile-wrap, .footer-content-wrap, .footer-secure-pay{
+    gap: 16px;
+}
+.blue-circle{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: var(--color-light-blue);
+}
+.blue-circle::after{
+    content: '';
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    background-color: var(--color-blue);
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.into-text, .info-text-mobile{
+    color: var(--color-secondary);
+    font-size: 14px;
+}
+.instructions{
+    margin-bottom: 30px;
+}
+.instruction-text, .guarantee-batch .text, .testimonial-text{
+    color: var(--color-secondary);
+}
+.savings-info{
+    padding: 12px 16px;
+    background-color: var(--color-light-blue);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.module-icon{
+    width: 32px;
+    height: 32px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.button-success{
+    background-color: var(--color-green);
+    padding: 16px 60px;
+    font-weight: 700;
+    border-radius: 50px;
+    color: var(--color-white);
+    text-transform: uppercase;
+    font-size: 20px;
+    gap: 10px;
+}
+.payment-info-wrap{
+    border: 1px solid var(--color-gray);
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+.payment-info-wrap .text{
+    color: var(--color-secondary);
+    font-size: 12px;
+}
+.vertical-divider{
+    width: 1px;
+    height: 16px;
+    background-color: var(--color-gray);
+}
+.paymnet-content-wrap{
+    width: 288px;
+    justify-content: space-around;
+}
+.payment-methods, .secure-pay{
+    gap: 4px;
+}
+.alert{
+    font-size: 18px;
+    color: var(--color-red);
+    text-transform: uppercase;
+}
+.batch-img{
+    width: 88px;
+    height: 88px;
+}
+.testimonial{
+    padding: 24px;
+    background-color: var(--color-white);
+    margin-top: 24px;
+}
+.user-avatar{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+.user-name{
+    font-size: 14px;
+    color: var(--color-dark);
+}
+.verify-status{
+    color: var(--color-light-green);
+    font-size: 12px;
+}
+.footer{
+    background-color: var(--color-primary);
+    padding: 20px 10px;
+    margin-top: 40px;
+}
+.footer-content-wrap .text, .footer-secure-pay .text{
+    color: var(--color-white);
+}
+@media (max-width: 1199px){
+    .content-row{
+        display: block;
+    }
+    .col-left {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 30px;   
+    }
+    .desktop-divider, .testimonial{
+        display: none;
+    }
+    .payment-info-wrap, .footer-info-wrap{
+        flex-direction: column;
+    }
+    .paymnet-content-wrap, .footer-content-wrap{
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        padding-bottom: 8px;
+        margin-bottom: 10px;
+        border-bottom: 1px solid var(--color-gray);
+    }
+    .footer-content-wrap, .footer-secure-pay .text{
+        border: none;
+        font-size: 12px;
+    }
+}
+@media (max-width: 1024px) {  
+    .title-wrap{
+        justify-content: center;
+    }
+    .d-none{
+        display: none;
+    }
+}
+@media (max-width: 764px) {  
+    .logo-wrap .logo-img, .header-right-logo{
+        width: 106px;
+    }
+    .title{
+        font-size: 34px;
+        margin-bottom: 12px;
+    }
+    .subtitle{
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+    .count, .tab svg{
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+    .wizard-state-text, .guarantee-batch .text{
+        font-size: 12px;
+    }
+    .tab{
+        flex-direction: column;
+        gap: 4px;
+    }
+    .header{
+        box-shadow: 0px 24px 24px 0px rgba(15, 29, 11, 0.04);
+        align-items: center;
+        padding: 20px 15px;
+        margin-bottom: 50px;
+    }
+    .banner-image{
+        width: 320px;
+    }
+    .content-heading{
+        font-size: 24px;
+        text-align: center;
+    }
+    .tab-content {
+        padding: 0;
+        background-color: unset;
+    }
+    .batch-img{
+        width: 48px;
+        height: 48px;
+    }
+}
+@media (max-width: 576px) {
+    .banner-image {
+        width: 100%;
+    }
+    .desc-img{
+        width: 80px;
+    }
+    .info-title, .price, .stock-status, .savings-info p, .button-success{
+        font-size: 14px;
+    }
+    .price del{
+        font-size: 10px;
+    }
+    .description-wrap{
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    .instruction-text{
+        font-size: 12px;
+    }
+    .info-text-mobile{
+        display: block;
+    }
+    .into-text{
+        display: none;
+    }
+    .tick-icon{
+        width: 16px;
+    }
+    .module-icon{
+        width: 24px;
+        height: 24px;
+        font-size: 14px;
+    }
+}

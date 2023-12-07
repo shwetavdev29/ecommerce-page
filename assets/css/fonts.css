@@ -1,0 +1,91 @@
+/* manrope-200 - latin */
+@font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 200;
+    src: url('./fonts/manrope-v15-latin-200.eot'); 
+    src: url('./fonts/manrope-v15-latin-200.eot?#iefix') format('embedded-opentype'), 
+         url('./fonts/manrope-v15-latin-200.woff2') format('woff2'), 
+         url('./fonts/manrope-v15-latin-200.woff') format('woff'), 
+         url('./fonts/manrope-v15-latin-200.ttf') format('truetype'), 
+         url('./fonts/manrope-v15-latin-200.svg#Manrope') format('svg'); 
+  }
+  /* manrope-300 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 300;
+    src: url('./fonts/manrope-v15-latin-300.eot'); 
+    src: url('./fonts/manrope-v15-latin-300.eot?#iefix') format('embedded-opentype'), 
+         url('./fonts/manrope-v15-latin-300.woff2') format('woff2'), 
+         url('./fonts/manrope-v15-latin-300.woff') format('woff'), 
+         url('./fonts/manrope-v15-latin-300.ttf') format('truetype'), 
+         url('./fonts/manrope-v15-latin-300.svg#Manrope') format('svg'); 
+  }
+  /* manrope-regular - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/manrope-v15-latin-regular.eot'); 
+    src: url('./fonts/manrope-v15-latin-regular.eot?#iefix') format('embedded-opentype'), 
+         url('./fonts/manrope-v15-latin-regular.woff2') format('woff2'), 
+         url('./fonts/manrope-v15-latin-regular.woff') format('woff'), 
+         url('./fonts/manrope-v15-latin-regular.ttf') format('truetype'), 
+         url('./fonts/manrope-v15-latin-regular.svg#Manrope') format('svg'); 
+  }
+  /* manrope-500 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    src: url('./fonts/manrope-v15-latin-500.eot'); 
+    src: url('./fonts/manrope-v15-latin-500.eot?#iefix') format('embedded-opentype'), 
+         url('./fonts/manrope-v15-latin-500.woff2') format('woff2'), 
+         url('./fonts/manrope-v15-latin-500.woff') format('woff'), 
+         url('./fonts/manrope-v15-latin-500.ttf') format('truetype'), 
+         url('./fonts/manrope-v15-latin-500.svg#Manrope') format('svg'); 
+  }
+  /* manrope-600 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    src: url('./fonts/manrope-v15-latin-600.eot'); 
+    src: url('./fonts/manrope-v15-latin-600.eot?#iefix') format('embedded-opentype'), 
+         url('./fonts/manrope-v15-latin-600.woff2') format('woff2'), 
+         url('./fonts/manrope-v15-latin-600.woff') format('woff'), 
+         url('./fonts/manrope-v15-latin-600.ttf') format('truetype'), 
+         url('./fonts/manrope-v15-latin-600.svg#Manrope') format('svg'); 
+  }
+  /* manrope-700 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/manrope-v15-latin-700.eot'); 
+    src: url('./fonts/manrope-v15-latin-700.eot?#iefix') format('embedded-opentype'), 
+         url('./fonts/manrope-v15-latin-700.woff2') format('woff2'), 
+         url('./fonts/manrope-v15-latin-700.woff') format('woff'), 
+         url('./fonts/manrope-v15-latin-700.ttf') format('truetype'), 
+         url('./fonts/manrope-v15-latin-700.svg#Manrope') format('svg'); 
+  }
+  /* manrope-800 - latin */
+  @font-face {
+    font-display: swap; 
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./fonts/manrope-v15-latin-800.eot'); 
+    src: url('./fonts/manrope-v15-latin-800.eot?#iefix') format('embedded-opentype'), 
+         url('./fonts/manrope-v15-latin-800.woff2') format('woff2'), 
+         url('./fonts/manrope-v15-latin-800.woff') format('woff'), 
+         url('./fonts/manrope-v15-latin-800.ttf') format('truetype'), 
+         url('./fonts/manrope-v15-latin-800.svg#Manrope') format('svg'); 
+  }
